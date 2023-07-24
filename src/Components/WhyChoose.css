@@ -1,0 +1,148 @@
+/* WhyChoose.css */
+
+.main-divv{
+    position: relative;
+    overflow: hidden;
+}
+
+.main-divv .rightsideimage{
+    position: absolute;
+    width: 200px;
+    top: -40px;
+    left: -20px;
+    animation: shake3 4s ease-in-out infinite;
+}
+
+.main-divv .leftsideimage{
+    position: absolute;
+    width: 200px;
+    bottom: 40%;
+    right: -20px;
+    animation: shake3 4s ease-in-out infinite;
+}
+.main-divv .leftsideimage2{
+    position: absolute;
+    width: 200px;
+    bottom: 10px;
+    left: -20px;
+    animation: shake3 4s ease-in-out infinite;
+}
+
+/* Styles for the entire component */
+.why-choose-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 300px;
+    margin-top: 100px;
+}
+
+
+/* Styles for the rotated part of the cart */
+.cart-rotate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 400px;
+    background-color: blue;
+    transform: rotate(-10deg);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    position: relative;
+}
+
+/* Styles for the content part of the cart */
+.cart-content {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    transform: rotate(7deg);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.cart-content center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-10px);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    75% {
+        transform: translateX(-10px);
+    }
+}
+
+@keyframes shake2 {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    75% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes shake3 {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateY(50px);
+    }
+
+    75% {
+        transform: translateX(-70px);
+    }
+}
+
+
+/* Apply the shaking animation to the main cart continuously */
+.cart {
+    animation: shake2 2s ease-in-out infinite;
+}
+
+.cart2{
+    animation: shake 2s ease-in-out infinite;
+}

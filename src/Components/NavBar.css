@@ -1,0 +1,76 @@
+
+ .nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        background-color: white;
+    }
+    .nlogo{
+        font-size: '1.5rem',
+    }
+    .navlinks {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        background-color: blue;
+        border-radius: 45px;
+        height: 53px;
+    }
+    .linkItem{
+        text-transform: capitalize;
+        padding: 5px 20px;
+        cursor: pointer;
+        font: Kodchasan;
+        font-size:21px;
+        font-weight: 700;
+
+    }
+    .buttonsSection{
+        display: flex;
+        gap: 20px;
+    }
+    .nbutton{
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 45px;
+        padding: 10px 20px;
+        cursor: pointer;
+        height: 53px;
+    }
+    @media screen and (min-width: 701px) and (max-width: 3000px) {
+    .pnavlinks{
+        display: none;
+    }
+}
+    @media screen and (min-width: 300px) and (max-width: 700px) {
+        .nav{
+            display:"block"
+        }
+        .rnavlinks{
+            display: none;
+        }
+        .navlinks{
+            display: flex;
+            gap: 3px;
+            font-size: 12px;
+        }
+        .nlogo>img{
+            width: 130px;
+            height: 59px;
+        }
+        .linkItem{
+            text-transform: capitalize;
+            padding: 5px 5px;
+            cursor: pointer;
+            font: Kodchasan;
+            font-size:13px;
+            font-weight: 700;
+    
+        }
+      
+    }

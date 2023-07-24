@@ -1,0 +1,219 @@
+.tmein-div
+{
+   width: 1113px;
+    height: 482px;
+    margin: 8% 6%;
+    background-color: #3869ff;
+    padding:3%;
+
+}
+.ttext
+{
+    
+        font-size: 58px;
+        font-weight: 700;
+        font-family: inter;
+        color: white;
+        text-align: center;
+      
+}
+.tone-div
+{
+    width:20%;
+    text-align:center;
+     font-size:69px;
+      color:#FFF;
+      font-family: Jomolhari;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 122.3%;
+}
+.tslider-mein{
+    background-color:#234EE5;
+     margin:10px;
+      border-radius:26px;
+      padding:68px, 21px;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px
+}
+.tslider{
+  display: flex;
+   flex-direction: row;
+   padding:68px 21px;
+}
+.tename{
+    display: flex;
+     flex-direction: row;
+      /* padding:68px 21px; */
+      color: white;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      justify-content: center;
+}
+.tdesignation{
+   font-size: 13px;
+   text-align:center;
+    color:white;
+}
+.tetext{
+font-size: 20px;
+ text-align: center;
+  font-weight:700;
+   color:white;
+    padding:20px;
+
+}
+@media screen and (min-width: 500px) and (max-width: 699px) {
+    .tmein-div
+    {
+       width: 500px;
+        height: 382px;
+        margin: 8% 6%;
+        background-color: #3869ff;
+        padding:3%;
+    
+    }
+    .ttext
+    {
+        
+            font-size: 38px;
+            font-weight: 700;
+            font-family: inter;
+            color: white;
+            text-align: center;
+          
+    }
+    .tone-div
+    {
+        width:20%;
+        text-align:center;
+         font-size:49px;
+          color:#FFF;
+          font-family: Jomolhari;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 122.3%;
+          padding-top: 50px;
+    }
+    .timage>img{
+        width: 80px ;
+        height: 80px;
+        border-radius: 16px;
+    }
+    .tslider-mein{
+        background-color:#234EE5;
+         margin:10px;
+          border-radius:24px;
+          padding:10px 10px;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px
+    }
+    .tslider{
+      display: flex;
+       flex-direction: row;
+       padding:16px 16px;
+    }
+    .tename{
+        display: flex;
+         flex-direction: row;
+          /* padding:68px 21px; */
+          color: white;
+          font-size: 16px;
+          font-weight: 600;
+          text-align: center;
+          justify-content: center;
+    }
+    .tdesignation{
+       font-size: 15px;
+       text-align:center;
+        color:white;
+    }
+    .tetext{
+    font-size: 9px;
+     text-align: center;
+      font-weight:500;
+       color:white;
+        padding:15px;
+    
+    }
+    .star{
+        font-size: 14px;
+        padding-top: 8px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+    .tmein-div
+    {
+       width: 300px;
+        height: 282px;
+        margin: 8% 6%;
+        background-color: #3869ff;
+        padding:3%;
+    
+    }
+    .ttext
+    {
+        
+            font-size: 28px;
+            font-weight: 700;
+            font-family: inter;
+            color: white;
+            text-align: center;
+          
+    }
+    .tone-div
+    {
+        width:20%;
+        text-align:center;
+         font-size:29px;
+          color:#FFF;
+          font-family: Jomolhari;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 122.3%;
+          padding-top: 45px;
+    }
+    .timage>img{
+        width: 40px ;
+        height: 40px;
+        border-radius: 8px;
+    }
+    .tslider-mein{
+        background-color:#234EE5;
+         margin:5px;
+          border-radius:16px;
+          padding:3px 3px;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px
+    }
+    .tslider{
+      display: flex;
+       flex-direction: row;
+       padding:8px 8px;
+    }
+    .tename{
+        display: flex;
+         flex-direction: row;
+          /* padding:68px 21px; */
+          color: white;
+          font-size: 11px;
+          font-weight: 400;
+          text-align: center;
+          justify-content: center;
+    }
+    .tdesignation{
+       font-size: 9px;
+       text-align:center;
+        color:white;
+    }
+    .tetext{
+    font-size: 8px;
+     text-align: center;
+      font-weight:300;
+       color:white;
+        padding:10px;
+    
+    }
+    .star{
+        font-size: 8px;
+        padding-top: 4px;
+    }
+}

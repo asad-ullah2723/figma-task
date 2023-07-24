@@ -1,0 +1,89 @@
+.footerbg{
+    background-image:url("footerbg.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          margin-top: -140px;
+          padding-top: 140px;
+         
+}
+.ftext{
+    font-size: 20px;
+                  font-weight: 300;
+                  line-height: 29px;
+                  color: white;
+                  max-width: 260px;
+}
+.fheading{
+  
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 41.6px;
+        color: #337FFF;
+        font-family: kodchasan;
+    
+}
+.flink{
+    padding: 5px;
+}
+.flink:hover{
+    color: blue;
+    cursor: pointer;
+}
+.ficons{
+   
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        align-items: center;
+        text-align: left;
+        padding: 0px;
+        margin: 0px;
+        transition: transform 2.2s;
+       
+    
+}
+.ficon:hover{
+    transform: scale(1.5);
+}
+.copyright{
+  
+        background-image: url("copyright.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        color: white;
+        font-size: 21px;
+        font-weight: 400;
+      
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+    .fblock {
+        /* padding-left: 30%; */
+        text-align: center;
+        width: 100%;
+    }
+    .copyright{
+        background-image: url("copyright.png");
+        background-repeat: no-repeat;
+        background-size: 280px;
+        font-size: 16px;
+    }
+    .ficons{
+        text-align: center;
+        padding-left: 30%;
+    }
+    .main-divv .rightsideimage {
+        position: absolute;
+        width: 200px;
+        top: 49px;
+        left: -20px;
+        animation: shake3 4s ease-in-out infinite;
+    }
+    .main-divv .leftsideimage {
+        position: absolute;
+        width: 200px;
+        bottom: 36%;
+        right: -20px;
+        animation: shake3 4s ease-in-out infinite;
+    }
+  }
